@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarchical Website Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌳 Hierarchical Website Structure 🌳</h1>
+        <p>Created by 𝓕𝓸𝔂𝔃𝓾𝓵 𝓘𝓼𝓵𝓪𝓶 𝓡𝓲𝓪𝔃</p>
+        <p>Click on nodes to see practical examples!</p>
+    </header>
+
+    <div class="tree-container">
+        <ul class="tree">
+            <li>
+                <span class="node" data-info="This is the Home Page">Home</span>
+                <ul>
+                    <li>
+                        <span class="node" data-info="Section about About Us">About</span>
+                        <ul>
+                            <li><span class="node" data-info="Team info">Team</span></li>
+                            <li><span class="node" data-info="History of website">History</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="node" data-info="Section about Courses">Courses</span>
+                        <ul>
+                            <li><span class="node" data-info="Math course details">Math</span></li>
+                            <li><span class="node" data-info="Science course details">Science</span></li>
+                            <li><span class="node" data-info="Language course details">Languages</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="node" data-info="Contact us section">Contact</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="info-box">
+        <h2>Node Info:</h2>
+        <p id="node-info">Click on any node to see its role in the website hierarchy.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
